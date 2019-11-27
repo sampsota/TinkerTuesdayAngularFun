@@ -1,13 +1,40 @@
-<mat-toolbar color="accent" >
+<div class="header-bar">
+<mat-toolbar color="primary" >
   <button mat-icon-button>
     <mat-icon>menu</mat-icon>
   </button>
   
   <h1>{{ title }}</h1>
 </mat-toolbar>
+</div>
+<!--Image goes here-->
+<div>
+
+</div>
 
 
-<mat-icon svgIcon="biometrics" aria-hidden="false" aria-label="Fingerprint reader">biometrics</mat-icon>
+<!--Panel with slide info goes here-->
+
+
+
+<!--Footer navigation goes here-->
+<div class="bottom">
+  <mat-toolbar color="primary">
+    <div class="tab">
+        <mat-icon svgIcon="barcode" aria-hidden="false" aria-label="Fingerprint reader" class="centered" >Scan</mat-icon>
+    </div>
+    <div class="tab">
+        <button mat-icon-button class="centered">
+            <mat-icon>search</mat-icon>
+        </button>
+      </div>
+      <div class="tab" class="centered">
+          <mat-icon>person</mat-icon>
+        </div>
+  </mat-toolbar>
+  
+</div>
+
 
 
 

@@ -9,6 +9,8 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatCardModule } from '@angular/material/card';
 import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
@@ -23,6 +25,8 @@ import { HttpClientModule } from "@angular/common/http";
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    MatTabsModule,
+    MatCardModule,
     HttpClientModule
   ],
   providers: [],
